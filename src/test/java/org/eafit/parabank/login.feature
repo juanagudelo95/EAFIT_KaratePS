@@ -27,3 +27,10 @@ Feature: Login to Parabank
     }
     """
     And match responseHeaders['CF-RAY'][0] != null
+
+  Scenario: Customer Login failed
+    Given path 'login'
+    And path 'chriseafit' //userName
+    And path 'chriseafit12334673663' //password
+    When method GET
+    Then status 400
