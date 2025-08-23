@@ -35,4 +35,4 @@ Feature: Login to Parabank
     And path 'chriseafit12334673663' //password
     When method GET
     Then status 400
-    And match response contains 'Invalid username and/or password'
+    And match response contains 'Invalid username and or password'
