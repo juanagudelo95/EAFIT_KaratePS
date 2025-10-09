@@ -4,7 +4,7 @@ Feature: Pay to Parabank
   Background:
     * url baseUrl
     * header Accept = 'application/json'
-    * def accountFrom = 18006
+    * def accountFrom = 21669
     * def amount = 150
     * def name =  'Prueba Juan 3'
     * def street = 'test street'
@@ -12,7 +12,7 @@ Feature: Pay to Parabank
     * def state = 'test state'
     * def zipcode = 'test zipcode'
     * def phoneNumber = 'Test phone'
-    * def accountNumber = 21669
+    * def accountNumber = 22002
 
   Scenario: Customer Pay
       Given path 'billpay'
