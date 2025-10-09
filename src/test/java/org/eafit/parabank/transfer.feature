@@ -5,7 +5,7 @@ Feature: Tranfer to Parabank
     * url baseUrl
     * header Accept = 'application/json'
     * def accountFrom = 21669
-    * def accountto = 21669
+    * def accountto = 22002
     * def amount = 150
 
   Scenario: Customer Transfer
